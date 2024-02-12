@@ -1,4 +1,14 @@
-# Temperature Controlled Fan With Poweroff Button for RaspberryPI
+# Temperature Controlled Fan for RaspberryPI
+
+This is a guide to create a temperature controled fan for RaspberryPi
+
+You need to be able to build the circuit or have someone do it for you.
+
+After that you need the python script that will check the temperature and switch on/off the fan.
+
+The script and circuit assume the fan is connected to PIN 17 and the button to PIN4
+The fan is set to turn on when temperature exceeds 45°C and turn off when below 40°C
+There is also a 10 second delay between each check
 
 
 NOTE: Never connect the fan directly to the I/O Pins

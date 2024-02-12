@@ -13,9 +13,9 @@ shutdown_btn.when_held = shutdown
 
 while True:
     print("Temp:" + str(cpu.temperature))
-    if cpu.temperature > 40:
+    if cpu.temperature > 45:
         fan.on()
-    else:
+    elif cpu.temperature < 40:
         fan.off()
 
     sleep(10)
