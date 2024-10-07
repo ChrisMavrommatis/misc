@@ -1,3 +1,4 @@
+# Restore Correct Video Time
 
 This command corrects inaccurate timestamps in a video file. For example, if a video is 2 hours and 30 minutes long but its timestamp incorrectly shows 20 minutes and 34 seconds, the following FFmpeg command can be used to resolve the issue:
 
